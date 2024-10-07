@@ -7,7 +7,7 @@ nav {
     padding: 1em;
 }
 nav a {
-    color: blue;
+    color: white;
     text-decoration: none;
     padding: 0.5em;
 }
@@ -15,31 +15,31 @@ nav a:hover {
     text-decoration: underline;
 }
 #homepage-header {
-    background-color: pink;
+    background-color: blue;
     color: white;
     padding: 1em;
     text-align: center;
 }
 
 #homepage-paragraph {
-    color: red;
+    color: black;
 }
 #about-heading {
-    color: orange;
+    color: black;
 }
 #about-introduction {
-    color: green;
+    color: black;
 }
 #about-hobby {
-    color: yellow;
+    color: black;
 }
 label {
-    color: purple;
+    color: blue;
 }
 input[type="text"],
 input[type="email"],
 textarea {
-    background-color: brown;
+    background-color: gray;
     border: 1px solid #ccc;
     padding: 0.5em;
     margin-bottom: 1em;
