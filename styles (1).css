@@ -1,0 +1,66 @@
+.body-class {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.header-class {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+.nav-class {
+    background-color: #333;
+    color: #fff;
+}
+.nav-class a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.nav-class a.active {
+    font-weight: bold;
+}
+.title-class {
+    color: #2E86C1;
+}
+.section-title-class {
+    color: #D35400;
+}
+.text-class {
+    color: #333;
+}
+.image-class {
+    border: 2px solid #2E86C1;
+}
+.form-class {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.button-class {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.button-class:hover {
+    background-color: #45a049;
+}
+.footer-class {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .nav-class {
+        display: block;
+    }  
+    .form-class {
+        width: 100%;
+    }
+    .image-class {
+        width: 100%;
+        height: auto;
+    }
+}
