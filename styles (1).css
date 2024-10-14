@@ -1,18 +1,18 @@
 .body-class {
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Comic Sans MS, sans-serif;
 }
 .header-class {
-    background-color: #4CAF50;
+    background-color: purple;
     color: white;
     padding: 10px;
 }
 .nav-class {
-    background-color: #333;
+    background-color:  dark blue;
     color: #fff;
 }
 .nav-class a {
-    color: white;
+    color: gray;
     text-decoration: none;
     padding: 14px 20px;
 }
