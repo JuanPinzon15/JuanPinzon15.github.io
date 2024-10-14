@@ -1,5 +1,5 @@
 .body-class {
-    background-color: #f0f0f0;
+    background-color: #10354d;
     font-family: Comic Sans MS, sans-serif;
 }
 .header-class {
@@ -8,7 +8,7 @@
     padding: 10px;
 }
 .nav-class {
-    background-color:  dark blue;
+    background-color:  #1f7db8;
     color: #fff;
 }
 .nav-class a {
