@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Being a Volunteer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HelpHub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities List</a></li>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    </main>     
+        <h3>Volunteer Opportunities</h3>
+        <ul>
+            <li>Meal Delivery Volunteer - Help deliver meals to those in need.</li>
+            <li>Event Assistant - Help organize fundraising events.</li>
+        </ul>
+
+        <button onclick="document.getElementById('volunteer-form').style.display='block'">Volunteer Now</button>
+        
+        <div id="volunteer-form" style="display:none;">
+            <h4>Volunteer Form</h4>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="last name">Last Name:</label>
+                <input type="text" id="last name" name="last name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone number">Phone Number:</label>
+                <textarea id="phone number" name="phone number"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+<footer>
+    <div class="footer-content">
+        <ul class="social-media">
+            <li>
+                <a href="mailto:helphub@charities.org">
+                    <img src="https://static.dezeen.com/uploads/2020/10/gmail-google-logo-rebrand-workspace-design_dezeen_2364_sq.jpg" alt="Gmail" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/Helphub_charities" target="_blank">
+                    <img src="https://banner2.cleanpng.com/20180713/huy/aawa951nk.webp" alt="Facebook" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/helphub_charities" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" alt="Instagram" />
+                </a>
+            </li>
+            <li>
+                <img src="https://e7.pngegg.com/pngimages/468/969/png-clipart-phone-call-logo-sketch-telephone-mobile-phones-computer-icons-logo-telephone-miscellaneous-text-thumbnail.png" alt="Phone" /> (403) 861 - 9175
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
